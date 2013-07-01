@@ -1,0 +1,2 @@
+﻿
+window.console.log("Sccess!!");

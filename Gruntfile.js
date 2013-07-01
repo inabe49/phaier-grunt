@@ -1,15 +1,32 @@
-phaier-grunt
-============
-
-tool for grunt
+/*
+Gruntfile for testing phaier-grunt
 
 
-## Documentaion
+npm install grunt --save-dev
+npm install grunt-typescript --save-dev
+npm install grunt-contrib-copy --save-dev
+npm install grunt-contrib-watch --save-dev
+npm install grunt-contrib-less --save-dev
+npm install grunt-jsonlint --save-dev
+npm install grunt-contrib-cssmin --save-dev
+npm install grunt-contrib-htmlmin --save-dev
+npm install grunt-contrib-uglify --save-dev
+npm install grunt-minjson --save-dev
 
-## How to use
-write Gruntfile.js like this.
-```
-    var PhaierGrunt = require("phaier-grunt");
+npm install grunt-contrib-jshint --save-dev
+npm install grunt-contrib-concat --save-dev
+
+
+今は使ってない
+
+npm install grunt-contrib-clean --save-dev
+
+*/
+module.exports = function(grunt) {
+    "use strict";
+
+    // var PhaierGrunt = require("phaier-grunt");
+    var PhaierGrunt = require("./bin/phaier-grunt");
     var js_banner = "";
         js_banner += "/* =========================================================" + "\n";
         js_banner += " * SylFile Sprite Project" + "\n";
@@ -89,4 +106,4 @@ write Gruntfile.js like this.
 
 
     builder.start();
-```
+};
