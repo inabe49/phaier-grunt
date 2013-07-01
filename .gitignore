@@ -1,14 +1,19 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+# Phaier Grunt
+test/dest/
+temp/
 
-pids
-logs
-results
 
-npm-debug.log
+# Python
+*.py[cod]
+
+# Node.js
+node_modules/
+
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+*.cache
+*.cmd
+*.bat
